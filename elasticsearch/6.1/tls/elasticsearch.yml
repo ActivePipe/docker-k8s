@@ -16,3 +16,8 @@ xpack.watcher.enabled: ${XPACK_WATCHER_ENABLED:false}
 # see https://github.com/floragunncom/search-guard-ssl/blob/master/src/main/java/com/floragunn/searchguard/ssl/util/SSLConfigConstants.java#L28
 searchguard.ssl.transport.enabled: ${SEARCHGUARD_SSL_TRANSPORT_ENABLED:false}
 searchguard.ssl.http.enabled: ${SEARCHGUARD_SSL_HTTP_ENABLED:false}
+
+script.engine.groovy.inline.update: on
+script.inline: on
+script.indexed: on
+script.engine.groovy.inline.aggs: on
