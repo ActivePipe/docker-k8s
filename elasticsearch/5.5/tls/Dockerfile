@@ -17,4 +17,4 @@ USER elasticsearch
 
 RUN bin/elasticsearch-plugin install io.fabric8:elasticsearch-cloud-kubernetes:5.5.2
 RUN bin/elasticsearch-plugin install -b com.floragunn:search-guard-ssl:5.5.2-23
-
+RUN bin/elasticsearch-plugin install repository-s3
