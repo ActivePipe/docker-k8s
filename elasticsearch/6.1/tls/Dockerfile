@@ -16,4 +16,4 @@ RUN chown elasticsearch:elasticsearch config/elasticsearch.yml
 USER elasticsearch
 
 RUN bin/elasticsearch-plugin install -b com.floragunn:search-guard-ssl:6.1.1-25.0
-
+RUN bin/elasticsearch-plugin install repository-s3
