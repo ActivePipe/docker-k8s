@@ -10,8 +10,3 @@ path:
   plugins: /usr/share/elasticsearch/plugins
 
 processors: ${PROCESSORS:}
-
-script.engine.groovy.inline.update: on
-script.inline: on
-script.indexed: on
-script.engine.groovy.inline.aggs: on
